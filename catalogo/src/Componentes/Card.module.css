@@ -1,0 +1,23 @@
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 30%;
+    background-color: #5D576B;
+    margin-bottom: 40px;
+}
+
+.container p {
+    margin: 10px;
+}
+
+.container img {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    cursor: pointer;
+}

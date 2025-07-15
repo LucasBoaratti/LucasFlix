@@ -1,0 +1,29 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;   
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul p {
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+}

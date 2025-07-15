@@ -1,0 +1,8 @@
+.container {
+    background-color: darkblue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+}

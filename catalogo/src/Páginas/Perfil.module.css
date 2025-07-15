@@ -1,0 +1,168 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+
+.informacoesPessoais {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+}
+
+.informacoesPerfil {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 300px;
+    background-color: #5D576B;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.informacoesPerfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.dados h2 {
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editarPerfil {
+    font-size: 25px;
+}
+
+.listaAmigos {
+    height: 300px;
+    background-color: #5D576B;
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listaAmigos h2 {
+    text-align: center;
+}
+
+.amigos {
+    overflow-y: scroll;
+    margin-right: 5px;
+}
+
+.informacoesAmigo {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.amigos p {
+    padding-bottom: 20px;
+}
+
+.informacoesAmigo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.filmesAssistidos {
+    display: flex;
+    flex-direction: column;
+    background-color: #5D576B;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.filmesAssistidos h1 {
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 30px;
+}
+
+.filmes {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    overflow-x: scroll; 
+}
+
+.filmes h3 {
+    text-align: center;
+}
+
+.filmes img {
+    width: 300px;
+    height: 400px;
+}
+
+.filmeAssistido {
+    width: 350px;
+    margin: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.seriesAssistidas {
+    display: flex;
+    flex-direction: column;
+    background-color: #5D576B;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.seriesAssistidas h1 {
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 30px;
+}
+
+.series {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    overflow-x: scroll; 
+}
+
+.series h3 {
+    text-align: center;
+}
+
+.series img {
+    width: 300px;
+    height: 400px;
+}
+
+.serieAssistida {
+    width: 350px;
+    margin: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+}

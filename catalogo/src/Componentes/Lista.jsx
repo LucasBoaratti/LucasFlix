@@ -9,7 +9,7 @@ import { Modal } from "./Modal";
 //Importando o arquivo CSS para estilizar a página
 import estilos from "./Lista.module.css";
 
-const API_key = "0817bdfeec7bae416b4022409f509431"; //Chave de acesso do TMDB
+const API_key = ""; //Chave de acesso do TMDB (Coloque sua chave da API após criar sua conta no The Movie DataBase :)
 const API_URL = "https://api.themoviedb.org/3"; //URL base da API do TMDB
 
 export function Lista() {

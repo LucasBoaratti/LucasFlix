@@ -1,23 +1,61 @@
-# Sobre o projeto: 
+# 🎬 LucasFlix 🎬
 
-LucasFlix foi o meu primeiro projeto em React, que consome dados de uma API de filmes, através do site The Movie DataBase.
+LucasFlix foi o meu primeiro projeto desenvolvido em React, que consome dados da API The Movie DataBase. E exibe os filmes e séries, com seus respectivos nomes, pôsters e descrição.
 
-## Como rodar o projeto:
+# 🎞 Como usar o projeto 🎞
 
-1. Baixe o arquivo e extrai a pasta para sua área de trabalho;
+1. Clique no botão Code e copia a URL do projeto:
 
-2. Abra o VSCode e em seguida, abra a pasta dentro do próprio VSCode;
+```bash
+https://github.com/LucasBoaratti/LucasFlix.git
+```
 
-3. Abra o terminal e instala a pasta node_modules:
+2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
 
-```node
+OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
+
+```bash 
+git clone https://github.com/LucasBoaratti/LucasFlix.git
+```
+
+3. Acesse a pasta do projeto:
+
+```bash
+cd .\LucasFlix
+```
+
+4. Agora, entre no VSCode:
+
+```bash
+code .
+```
+
+5. Após entrar no VSCode, abra o terminal com o atalho CTRL + J ou CTRL + ' e acesse a pasta catálogo:
+
+```bash
+cd .\catalogo
+```
+
+6. Agora, instale a pasta node_modules:
+
+```bash
 npm install
 ```
 
-4. Agora, rode o projeto:
+7. E rode o projeto:
 
-```node
+```bash
 npm run dev
 ```
 
-E pronto, agora fique à vontade para ver os filmes e as séries recentes! :D
+E pronto, agora você pode ver os filmes e as séries, famosos, que foram lançadas recentemente :D
+
+# 📽 Linguagens/tecnologias utlizadas 📽
+
+## FrontEnd
+
+<div style="display: flex;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" width="70px" height="70px" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" width="70px" height="70px" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="70px" height="70px" />
+</div>
